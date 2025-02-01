@@ -18,6 +18,7 @@ templates = Jinja2Templates(directory="templates")
 
 ALLOWED_ACCESS = {
     "shipu": "password",
+    "noyon": "password",
 }
 
 @app.get("/progress")
